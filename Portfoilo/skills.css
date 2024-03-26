@@ -1,0 +1,68 @@
+.box1{
+    padding-left: 30px;
+    box-sizing: border-box;
+    background-color: burlywood;
+    width: 600px;
+    height: 160px;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 30px;
+    margin: 10px;
+    color:black;
+    
+}
+.box1:hover{
+    background-color: darkgrey;
+    color:coral;
+    box-shadow: 0 0 10px 5px rgba(255,255,255,0.5);
+}
+.box1:hover::after{
+    content: "I regularly do competative coding since i love problem solving. I have 4 star at HackerRank and i regularly practice problems !! I even want to participate in different Web development platforms to improve my skills.";
+    display: block;
+    color: black;
+    font-size: 20px;
+}
+.box2{
+    padding-left: 30px;
+    box-sizing: border-box;
+    background-color:azure;
+    width: 600px;
+    height: 160px;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 30px;
+    margin: 10px;
+}
+.box2:hover{
+    background-color:yellowgreen;
+    color:beige;
+    box-shadow: 0 0 10px 5px lime;
+}
+.box2:hover::after{
+    content: "I have developed many websites and projects Over time i have gained a wealth of experience desigining and developing web applications in web development club and on various other platforms.";
+    display: block;
+    color: black;
+    font-size: 20px;
+}
+.box3{
+    padding-left: 30px;
+    box-sizing: border-box;
+    background-color:#FFD300;
+    width: 600px;
+    height: 160px;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 30px;
+    margin: 10px;
+}
+.box3:hover{
+    background-color:dodgerblue;
+    color: antiquewhite;
+    box-shadow: 0 0 10px 5px cyan;
+}
+.box3:hover::after{
+    content: "I have been consistently practice how to code from my inital days of collage which was very challenging but it was a really great experience all along .";
+    display: block;
+    color: black;
+    font-size: 20px;
+}

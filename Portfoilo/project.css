@@ -1,0 +1,85 @@
+.projectmain{
+    padding-left: 200px;
+    margin: 30px;
+    padding-top: 220px;
+    align-items: center;
+    justify-content: center;
+}
+.project1{
+    box-sizing: border-box;
+    background-color:black;
+    width: 80%;
+    height: 180px;
+    padding: 30px;
+    transition: background-color 0.3s ease;
+    font-size: 30px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.project1:hover{
+    background-color:#FFD300;
+    color: black;
+    box-shadow:0 0 10px 5px #FFD300;
+}
+.project1:hover::after{
+    content: "The Portfolio website which is really helpful and a individual webdeveloper can show of his skill i have included various sections like skills,projects and other importants aspects those are achived by me.";
+    display: block;
+    font-size: 20px;
+    color: yellow;
+    margin: 30px;
+    padding: 15px;
+    background-color: black;
+}
+.project2{
+    box-sizing: border-box;
+    background-color:firebrick;
+    width: 80%;
+    height: 180px;
+    padding: 30px;
+    transition: background-color 0.3s ease;
+    font-size: 30px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.project2:hover{
+    background-color: lightsalmon;
+    color: beige;
+    box-shadow:0 0 10px 5px red;
+}
+.project2:hover::after{
+    content: "The Portfolio website which is really helpful and a individual webdeveloper can show of his skill i have included various sections like skills,projects and other importants aspects those are achived by me.";
+    display: block;
+    font-size: 20px;
+    color: black;
+    margin: 30px;
+    padding: 15px;
+    background-color: firebrick;
+}
+.project3{
+    box-sizing: border-box;
+    background-color: aqua;
+    width: 80%;
+    height: 180px;
+    padding: 30px;
+    transition: background-color 0.3s ease;
+    font-size: 30px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.project3:hover{
+    background-color: cadetblue;
+    color: darkgoldenrod;
+    box-shadow:0 0 10px 5px aqua;
+}
+.project3:hover::after{
+    content: "The Portfolio website which is really helpful and a individual webdeveloper can show of his skill i have included various sections like skills,projects and other importants aspects those are achived by me.";
+    display: block;
+    font-size: 20px;
+    color: black;
+    margin: 30px;
+    padding: 15px;
+    background-color: aqua;
+}
